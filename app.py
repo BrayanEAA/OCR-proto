@@ -9,7 +9,8 @@ import cv2
 import numpy as np
 import re
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# En Render la ruta es la siguiente:
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
