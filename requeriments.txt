@@ -1,8 +1,8 @@
 fastapi
-uvicorn[standard]
-pytesseract
-opencv-python-headless
-pillow
-numpy
-python-multipart
+uvicorn
 jinja2
+pillow
+opencv-python-headless
+numpy
+easyocr
+torch
